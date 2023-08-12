@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Video Timeline | iamajraj</title>
+  </head>
+  <body>
+    <h1>
+      A simple Editor Timeline by
+      <a target="_blank" href="https://github.com/iamajraj/">github/iamajraj</a>
+    </h1>
+    <p class="instructions">
+      Use <code>Left Arrow</code> or <code>Right Arrow</code> or
+      <code>Mouse</code> for the indicator
+      <br />
+      Use <code>space</code> to play or pause.
+    </p>
+    <div class="video-container">
+      <video
+        id="videoPlayer"
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      ></video>
+    </div>
+    <canvas id="timelineCanvas"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
